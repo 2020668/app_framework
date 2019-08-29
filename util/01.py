@@ -29,18 +29,17 @@ desired_caps["noReset"] = True  # 不重置应用的状态
 
 # desired_caps["chromedriverExecutable"] = 'D:\\ChromeDrivers\\chrome39-42\\chromedriver.exe'
 
-
 # 2、连接appium desktop，向appium发送请求。在哪个设备打开哪个app
-driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+driver = webdriver.Remote('http://192.168.124.6:4723/wd/hub', desired_caps)
 
 # loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("乐付")')
 # WebDriverWait(driver, 20).until(ec.visibility_of_all_elements_located(loc))
 # # 获取当前所有的contexts
 # cons = driver.contexts
 # print(cons)
-#
+
 # driver.find_element(*loc).click()
-#
+
 # # 等待webview元素出现
 # loc = (MobileBy.CLASS_NAME, 'android.webkit.WebView')
 # WebDriverWait(driver, 20).until(ec.visibility_of_all_elements_located(loc))
