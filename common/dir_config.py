@@ -17,11 +17,11 @@ testdatas_dir = os.path.join(base_dir, "TestDatas")
 
 testcases_dir = os.path.join(base_dir, "TestCases")
 
-htmlreport_dir = os.path.join(base_dir, "Outputs/reports")
+htmlreport_dir = os.path.join(base_dir, "output/reports")
 
-logs_dir = os.path.join(base_dir, "Outputs/logs")
+logs_dir = os.path.join(base_dir, "output/logs")
 
 # config_dir =  os.path.join(base_dir,"Config")
 
-screenshot_dir = os.path.join(base_dir, "Outputs/imgs")
+screenshot_dir = os.path.join(base_dir, "output/imgs")
 print(screenshot_dir)
