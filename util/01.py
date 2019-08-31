@@ -21,10 +21,10 @@ import time
 desired_caps = {}
 
 desired_caps["platformName"] = "Android"  # 平台名称
-desired_caps["platformVersion"] = "9"  # 平台版本
-desired_caps["deviceName"] = "mi8_lite"  # 设备名称
-desired_caps["appPackage"] = 'com.cashier.jiutongshanghu'  # 应用包名
-desired_caps["appActivity"] = 'com.cashier.jiutongshanghu/.home.home_main.activity.StartActivity'  # 应用入口页面
+desired_caps["platformVersion"] = "9"  # 平台版本,雷电模拟器的安卓版本是5.1
+desired_caps["deviceName"] = "mi8_lite"  # 设备名称，可以随便写
+desired_caps["appPackage"] = 'com.cashier.jiutongshanghu'  # 应用包名 com.cashier.jiutongshanghu
+desired_caps["appActivity"] = 'com.cashier.jiutongshanghu.home.home_main.activity.StartActivity'  # 应用入口页面
 desired_caps["noReset"] = True  # 不重置应用的状态
 
 # desired_caps["chromedriverExecutable"] = 'D:\\ChromeDrivers\\chrome39-42\\chromedriver.exe'
