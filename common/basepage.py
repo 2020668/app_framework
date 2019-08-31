@@ -10,7 +10,7 @@ E-mail:keen2020@outlook.com
 
 # from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 import logging
 import time
 import os
@@ -29,7 +29,7 @@ class BasePage:
     def wait_ele_visible(self, loc, img_desc, timeout=30, frequency=0.5):
         start = datetime.datetime.now()  # 用datetime模块获取时间
         try:
-            WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+            WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
         except:
             # 日志
             logging.exception("等待元素 {} 可见 失败！".format(loc))
@@ -44,7 +44,7 @@ class BasePage:
     def wait_ele_exists(self, loc, img_desc, timeout=30, frequency=0.5):
         start = datetime.datetime.now()  # 用datetime模块获取时间
         try:
-            WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(loc))
+            WebDriverWait(self.driver, timeout, frequency).until(ec.presence_of_element_located(loc))
         except:
             # 日志
             logging.exception("等待元素 {} 存在 失败！".format(loc))
@@ -170,3 +170,4 @@ class BasePage:
     # h5切换
     # 应用切换
     # robot框架当中，有更丰富的封装。
+
