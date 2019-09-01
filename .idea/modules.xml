@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/app_framework.iml" filepath="$PROJECT_DIR$/.idea/app_framework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/py18_app_framework.iml" filepath="$PROJECT_DIR$/.idea/py18_app_framework.iml" />
     </modules>
   </component>
 </project>
