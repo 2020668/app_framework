@@ -21,7 +21,7 @@ import time
 desired_caps = {}
 
 desired_caps["platformName"] = "Android"  # 平台名称
-desired_caps["platformVersion"] = "9"  # 平台版本,雷电模拟器的安卓版本是5.1
+desired_caps["platformVersion"] = "5.1"  # 平台版本,雷电模拟器的安卓版本是5.1
 desired_caps["deviceName"] = "mi8_lite"  # 设备名称，可以随便写
 desired_caps["appPackage"] = 'com.cashier.jiutongshanghu'  # 应用包名 com.cashier.jiutongshanghu
 desired_caps["appActivity"] = 'com.cashier.jiutongshanghu.home.home_main.activity.StartActivity'  # 应用入口页面
@@ -32,7 +32,7 @@ desired_caps["noReset"] = True  # 不重置应用的状态
 # 2、连接appium desktop，向appium发送请求。在哪个设备打开哪个app
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 
-# loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("乐付")')
+# loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("乐付")') 一次使用多个方法组合定位
 # WebDriverWait(driver, 20).until(ec.visibility_of_all_elements_located(loc))
 # # 获取当前所有的contexts
 # cons = driver.contexts
