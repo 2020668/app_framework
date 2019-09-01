@@ -13,13 +13,14 @@ E-mail:keen2020@outlook.com
 """
 
 from appium import webdriver
+from appium.webdriver.common.touch_action import TouchAction
 from appium.webdriver.common.mobileby import MobileBy
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
 import time
 
-# desired_caps["automationName"] = "UiAutomator2"
+# actionchains      把所有的鼠标操作放在一个链表里面,通过perform去执行
 
 desired_caps = {}
 desired_caps["platformName"] = "Android"  # 平台名称
@@ -34,12 +35,23 @@ desired_caps["noReset"] = True  # 不重置应用的状态
 # 2、连接appium desktop，向appium发送请求。在哪个设备打开哪个app
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 
-WebDriverWait(driver, 20).until(
-    ec.visibility_of_element_located((MobileBy.ID, 'com.cashier.jiutongshanghu:id/ed_login_phone')))
-time.sleep(2)
+# 九宫格   获取元素的起点坐标
+start_loc = driver.find_element("", "").location
 
-# 获取设备的屏幕大小
-size = driver.get_window_size()
+# 获取元素的大小
+size = driver.find_element("", "").size
 
-# 多机兼容, 从屏幕的(90%,50%)开始滑动到(30%,50%), 多次划屏的话，要等待
-driver.swipe(size["width"] * 0.9, size["height"] * 0.5, size["width"] * 0.1, size["height"] * 0.5, 200)
+# 步长
+step = size["width"]/6
+
+# 第一个点
+TouchAction(driver).press(x=start_loc["x"]+step, y=start_loc["y"]+step).wait(200).\
+    move_to(x=start_loc["x"]+3*step, y=start_loc["y"]+step).wait(200).\
+    move_to(x=start_loc["x"]+5*step, y=start_loc["y"]+step).wait(200).\
+    move_to(x=start_loc["x"]+5*step, y=start_loc["y"]+3*step).wait(200).\
+    move_to(x=start_loc["x"]+3*step, y=start_loc["y"]+3*step).wait(200).\
+    move_to(x=start_loc["x"]+step, y=start_loc["y"]+3*step).\
+    release().perform()
+
+
+
