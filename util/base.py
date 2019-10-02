@@ -35,8 +35,9 @@ desired_caps["noReset"] = True  # 不重置应用的状态
 # 2、连接appium desktop，向appium发送请求。在哪个设备打开哪个app
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 
-driver.find_element_by_android_uiautomator(
-    'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/ed_login_phone")').send_keys("13072721092")
+loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/ed_login_phone"
+WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+driver.find_element(*loc).send_keys("13072721092")
 
 driver.find_element_by_android_uiautomator(
     'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/ed_login_password")').send_keys("123456")
@@ -78,15 +79,30 @@ driver.find_element_by_android_uiautomator(
 #         print("找到 指定订单 元素了")
 #         break
 
-# 点击 我的
-# loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("账单")'
-loc = (MobileBy.ID, 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_tab_title")')
-WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-print("找到了")
-driver.find_element(*loc)[2].click()
+time.sleep(3)
+p = driver.page_source
+print(p)
 
-# 点击 安全退出
-loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("安全退出")'
+# 点击 我的
+loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("我的")')
+# loc1 = MobileBy.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout" \
+#                       "/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout" \
+#                       "/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout" \
+#                       "/android.widget.RelativeLayout[3]/android.widget.LinearLayout/android.widget.TextView"
+WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+driver.find_element(*loc).click()
+
+p1 = driver.page_source
+print(p1)
+
+loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")')
+# driver.find_element_by_android_uiautomator(
+#     'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")').click()
+WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+driver.find_element(*loc).click()
+
+# 点击 退出登录
+loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("退出登录")')
 WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
 driver.find_element(*loc).click()
 
