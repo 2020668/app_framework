@@ -19,11 +19,14 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 import time
 
+from common.tools import uninstall_uiautomator2, uninstall_appium_settings
+
 # desired_caps["automationName"] = "UiAutomator2"
 
 desired_caps = {}
 
 desired_caps["platformName"] = "Android"  # 平台名称
+desired_caps["automationName"] = "UiAutomator2"
 desired_caps["platformVersion"] = "9"  # 平台版本,雷电模拟器的安卓版本是5.1,真机以实际版本为准
 desired_caps["deviceName"] = "mi8_lite"  # 设备名称，可以随便写
 desired_caps["appPackage"] = 'com.cashier.jiutongshanghu'  # 应用包名 com.cashier.jiutongshanghu
@@ -41,9 +44,6 @@ driver.find_element(*loc).send_keys("13072721092")
 
 driver.find_element_by_android_uiautomator(
     'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/ed_login_password")').send_keys("123456")
-
-# driver.find_element_by_android_uiautomator(
-#     'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/iv_login_jizhu")').click()
 
 driver.find_element_by_android_uiautomator(
     'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/but_login")').click()
@@ -79,41 +79,30 @@ driver.find_element_by_android_uiautomator(
 #         print("找到 指定订单 元素了")
 #         break
 
-time.sleep(3)
-p = driver.page_source
-print(p)
-
 # 点击 我的
-loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("我的")')
-# loc1 = MobileBy.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout" \
-#                       "/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout" \
-#                       "/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout" \
-#                       "/android.widget.RelativeLayout[3]/android.widget.LinearLayout/android.widget.TextView"
+loc = (MobileBy.ID, 'com.cashier.jiutongshanghu:id/iv_tab_icon')
 WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-driver.find_element(*loc).click()
+driver.find_elements(*loc)[2].click()
 
-p1 = driver.page_source
-print(p1)
-
+# 点击设置
 loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")')
-# driver.find_element_by_android_uiautomator(
-#     'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")').click()
 WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
 driver.find_element(*loc).click()
 
 # 点击 退出登录
-loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("退出登录")')
+loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/ll_loginout")'
 WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
 driver.find_element(*loc).click()
 
-# 点击确定
-loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/dialog_normal_rightbtn"
-
-# 点击取消
-# loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/dialog_normal_leftbtn"
-
+# 点击确定   取消-->   com.cashier.jiutongshanghu:id/dialog_normal_leftbtn
+loc = MobileBy.ANDROID_UIAUTOMATOR, \
+      'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/dialog_normal_rightbtn")'
 WebDriverWait(driver, 20).until(ec.visibility_of_all_elements_located(loc))
 driver.find_element(*loc).click()
+
+# 卸载配置应用
+uninstall_uiautomator2()
+uninstall_appium_settings()
 
 # # 等待webview元素出现
 # loc = (MobileBy.CLASS_NAME, 'android.webkit.WebView')
