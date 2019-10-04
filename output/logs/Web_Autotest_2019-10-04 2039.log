@@ -1,0 +1,8 @@
+ Fri, 04 Oct 2019 20:39:49  INFO logger.py <module> [ line:30 ] hehehe
+ Fri, 04 Oct 2019 20:40:12  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:06.600962
+ Fri, 04 Oct 2019 20:40:12  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.173540
+ Fri, 04 Oct 2019 20:40:12  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+ Fri, 04 Oct 2019 20:40:13  INFO basepage.py input_text [ line:114 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+ Fri, 04 Oct 2019 20:40:14  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.692741
+ Fri, 04 Oct 2019 20:40:14  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+ Fri, 04 Oct 2019 20:40:15  INFO basepage.py input_text [ line:114 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！

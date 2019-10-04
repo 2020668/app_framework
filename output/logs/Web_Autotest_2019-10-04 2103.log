@@ -1,0 +1,10 @@
+ Fri, 04 Oct 2019 21:03:22  INFO logger.py <module> [ line:30 ] hehehe
+ Fri, 04 Oct 2019 21:04:09  ERROR basepage.py wait_ele_exists [ line:49 ] 等待元素 ('-android uiautomator', 'new UiSelector().text("账单")') 存在 失败！
+Traceback (most recent call last):
+  File "C:\Users\keen\PycharmProjects\app_framework\common\basepage.py", line 46, in wait_ele_exists
+    WebDriverWait(self.driver, timeout, frequency).until(ec.presence_of_element_located(loc))
+  File "C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Fri, 04 Oct 2019 21:04:10  INFO basepage.py save_img [ line:168 ] 截图成功，截图存放在：C:\Users\keen\PycharmProjects\app_framework\output/screenshots\首页_获取用户登录状态_2019-10-04 21_04_09.png

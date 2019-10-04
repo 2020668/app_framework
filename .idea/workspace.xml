@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11783596-b8f5-481a-9d35-47effffa2f6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caps/conf.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caps/desired_caps.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caps/read_yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/adb_oper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 0752.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2017.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2031.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2037.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2039.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2059.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2101.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2103.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2108.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2111.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2115.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2116.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2121.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2129.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/reports/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/reports/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/登录页_等待用户名元素可见_2019-10-04 20_32_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/登录页_等待用户名元素可见_2019-10-04 20_37_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/首页_获取用户登录状态_2019-10-04 21_04_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_locators/index_page_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_locators/login_page_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_ojbects/index_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_ojbects/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/common_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/output/screenshots/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDatas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caps/get_yaml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caps/py.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/dir_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dir_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/base.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,23 +54,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="380">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
-                <element signature="e#225#282#0" expanded="true" />
+                <element signature="e#165#222#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/base.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_ojbects/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
-                <element signature="e#169#197#0" expanded="true" />
+                <element signature="e#169#205#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_ojbects/index_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#169#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_locators/index_page_locator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -41,29 +99,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="103">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/app_change.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="341">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#169#197#0" expanded="true" />
+                <element signature="e#169#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/app_h5.py">
+        <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="295">
+              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+              <folding>
+                <element signature="e#166#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -84,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/basepage.py" />
         <option value="$PROJECT_DIR$/util/01.py" />
         <option value="$PROJECT_DIR$/util/swipe.py" />
         <option value="$PROJECT_DIR$/util/touch_action.py" />
@@ -94,15 +163,31 @@
         <option value="$PROJECT_DIR$/util/app_toast.py" />
         <option value="$PROJECT_DIR$/util/app_h5.py" />
         <option value="$PROJECT_DIR$/util/base.py" />
+        <option value="$PROJECT_DIR$/common/dir_config.py" />
+        <option value="$PROJECT_DIR$/page_locators/page_login_locator.py" />
+        <option value="$PROJECT_DIR$/page_locators/login_page_locator.py" />
+        <option value="$PROJECT_DIR$/caps/read_yaml.py" />
+        <option value="$PROJECT_DIR$/common/adb_oper.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/test_data/common_data.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/page_login.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/page_index.py" />
+        <option value="$PROJECT_DIR$/caps/desired_caps.yaml" />
         <option value="$PROJECT_DIR$/common/tools.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/login_page.py" />
+        <option value="$PROJECT_DIR$/page_locators/index_page_locator.py" />
+        <option value="$PROJECT_DIR$/test_cases/conftest.py" />
+        <option value="$PROJECT_DIR$/common/basepage.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/index_page.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_login.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -122,7 +207,39 @@
             <path>
               <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="app_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="page_locators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="page_ojbects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
@@ -141,6 +258,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../api_automation_lefu_shanghu" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\keen\PycharmProjects\app_framework\caps" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -153,70 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.base">
-    <configuration name="多点触控" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="app_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/多点触控.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="app_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\keen\PycharmProjects\app_framework\util\base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app_toast" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="app_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/app_toast.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="app_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,6 +289,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="app_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="app_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="page_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="app_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_ojbects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\keen\PycharmProjects\app_framework\page_ojbects\login_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,11 +383,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.base" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.tools" />
-        <item itemvalue="Python.app_toast" />
-        <item itemvalue="Python.多点触控" />
-        <item itemvalue="Python.01" />
+        <item itemvalue="Python.page_login" />
+        <item itemvalue="Python.logger" />
+        <item itemvalue="Python.base" />
       </list>
     </recent_temporary>
   </component>
@@ -350,19 +472,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570030926359</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="version 2019100401">
+      <created>1570119991819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570119991819</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17371202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17371202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.3045326" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,12 +512,10 @@
     <MESSAGE value="version 20190914" />
     <MESSAGE value="version 2019100201" />
     <MESSAGE value="version 2019100202" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2019100202" />
+    <MESSAGE value="version 2019100401" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2019100401" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/dir_config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -414,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caps/get_yaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/common/multi_action.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-364">
@@ -434,16 +553,6 @@
           <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
             <element signature="e#168#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/basepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <element signature="e#225#282#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -485,16 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/app_change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#169#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/app_h5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -502,19 +601,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/tools.py">
+    <entry file="file://$PROJECT_DIR$/util/app_change.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="339">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#169#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/dir_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 0752.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#165#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/get_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/py.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/extensions/applications.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/read_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/common_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_locators/login_page_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/adb_oper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="e#170#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/screenshots/登录页_等待用户名元素可见_2019-10-04 20_32_12.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/conf.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/desired_caps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        <state relative-caret-position="373">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
           <folding>
             <element signature="e#169#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <element signature="e#166#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/reports/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#165#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ojbects/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#169#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ojbects/index_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#169#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_locators/index_page_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
           </folding>
         </state>
       </provider>

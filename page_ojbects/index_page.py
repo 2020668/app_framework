@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+"""
+
+=================================
+Author: keen
+Created on: 2019/10/4
+
+E-mail:keen2020@outlook.com
+
+=================================
+
+
+"""
+
+from common.basepage import BasePage
+from page_locators.index_page_locator import IndexPageLocator as Loc
+from common import logger
+import logging
+
+
+class IndexPage(BasePage):
+
+    # 点击导航栏内容
+    def click_nav_by_name(self, nav_name):
+        """
+        :param nav_name: 导航名称 首页、服务、我的
+        :return: None
+        """
+        if nav_name == "首页":
+            self.click_element(Loc.nav_loc, "首页_点击主页按钮", 0)
+        elif nav_name == "服务":
+            self.click_element(Loc.nav_loc, "首页_点击服务按钮", 1)
+        elif nav_name == "我的":
+            self.click_element(Loc.nav_loc, "首页_点击我的按钮", 2)
+        else:
+            logging.ERROR("没有此导航名称 --> {}".format(nav_name))
+
+    # 获取登录状态
+    def get_login_status(self):
+
+        status = self.get_text(Loc.order_nav_loc, img_desc="首页_获取用户登录状态")
+        if status == "账单":
+            return True
+        else:
+            return False
