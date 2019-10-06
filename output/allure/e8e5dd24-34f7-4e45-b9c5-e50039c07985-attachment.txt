@@ -1,0 +1,27 @@
+INFO     root:basepage.py:40 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.613762
+INFO     root:basepage.py:40 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.183217
+INFO     root:basepage.py:77 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+INFO     root:basepage.py:114 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+INFO     root:basepage.py:40 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.917748
+INFO     root:basepage.py:77 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+INFO     root:basepage.py:114 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+INFO     root:basepage.py:40 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.654665
+INFO     root:basepage.py:77 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:101 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:55 等待 首页_获取用户登录状态  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 存在成功。耗时：0:00:02.075775
+INFO     root:basepage.py:77 查找  首页_获取用户登录状态 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+INFO     root:basepage.py:151 获取 首页_获取用户登录状态 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 的文本值为:账单
+INFO     root:basepage.py:40 等待 首页_等待 我的 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 可见成功。耗时：0:00:00.231951
+INFO     root:basepage.py:77 查找  首页_等待 我的 元素可见 元素 ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 成功！
+INFO     root:basepage.py:40 等待 我的页_等待 设置 元素可见  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 可见成功。耗时：0:00:01.001962
+INFO     root:basepage.py:40 等待 我的页_设置按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 可见成功。耗时：0:00:00.188494
+INFO     root:basepage.py:77 查找  我的页_设置按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 成功！
+INFO     root:basepage.py:101 点击  我的页_设置按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 成功！
+INFO     root:basepage.py:40 等待 设置页_等待 退出登录 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见成功。耗时：0:00:00.152597
+INFO     root:basepage.py:40 等待 设置页_退出登录按钮按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见成功。耗时：0:00:00.102755
+INFO     root:basepage.py:77 查找  设置页_退出登录按钮按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 成功！
+INFO     root:basepage.py:101 点击  设置页_退出登录按钮按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 成功！
+INFO     root:basepage.py:40 等待 退出登录弹窗_等待 确定 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 可见成功。耗时：0:00:01.650588
+INFO     root:basepage.py:40 等待 退出登录弹窗_确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 可见成功。耗时：0:00:00.128659
+INFO     root:basepage.py:77 查找  退出登录弹窗_确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 成功！
+INFO     root:basepage.py:101 点击  退出登录弹窗_确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 成功！

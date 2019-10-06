@@ -22,3 +22,10 @@ class IndexPageLocator(object):
 
     # 账单
     order_nav_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("账单")'
+
+    # 扫一扫
+    scan_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("扫一扫")'
+    # 金额输入框
+    input_amount_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/tv_show"
+    # 确定按钮
+    sure_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/ib_finish"

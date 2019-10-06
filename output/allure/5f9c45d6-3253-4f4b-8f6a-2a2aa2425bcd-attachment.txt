@@ -1,0 +1,14 @@
+INFO     root:basepage.py:40 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.375312
+INFO     root:basepage.py:40 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.183507
+INFO     root:basepage.py:77 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+INFO     root:basepage.py:114 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+INFO     root:basepage.py:40 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:01.164383
+INFO     root:basepage.py:77 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+INFO     root:basepage.py:114 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值： 成功！
+INFO     root:basepage.py:40 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.795052
+INFO     root:basepage.py:77 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:101 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:55 等待 登录页_等待 提示语 请输入密码 元素存在  元素  ('xpath', '//*[contains(@text, "请输入密码")]') 存在成功。耗时：0:00:00.549848
+INFO     root:basepage.py:55 等待 登录页_提示语 请输入密码  元素  ('xpath', '//*[contains(@text, "请输入密码")]') 存在成功。耗时：0:00:00.389960
+INFO     root:basepage.py:77 查找  登录页_提示语 请输入密码 元素 ('xpath', '//*[contains(@text, "请输入密码")]') 成功！
+INFO     root:basepage.py:151 获取 登录页_提示语 请输入密码 元素 ('xpath', '//*[contains(@text, "请输入密码")]') 的文本值为:请输入密码

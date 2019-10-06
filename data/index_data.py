@@ -3,7 +3,7 @@
 
 =================================
 Author: keen
-Created on: 2019/10/4
+Created on: 2019/10/6
 
 E-mail:keen2020@outlook.com
 
@@ -12,5 +12,5 @@ E-mail:keen2020@outlook.com
 
 """
 
-c_username = "13072721092"
-c_pwd = "123456"
+success_data_ = [{"amount": "0.01"}]
+

@@ -2,46 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11783596-b8f5-481a-9d35-47effffa2f6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/caps/conf.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caps/desired_caps.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caps/read_yaml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/adb_oper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 0752.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2017.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2031.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2037.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2039.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2059.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2101.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2103.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2108.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2111.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2115.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2116.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2121.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 2129.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/reports/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/reports/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/登录页_等待用户名元素可见_2019-10-04 20_32_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/登录页_等待用户名元素可见_2019-10-04 20_37_47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/首页_获取用户登录状态_2019-10-04 21_04_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_locators/index_page_locator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_locators/login_page_locator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_ojbects/index_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_ojbects/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data/common_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/login_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_locators/my_page_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_ojbects/logout_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/output/screenshots/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDatas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caps/get_yaml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caps/py.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/dir_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dir_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_locators/index_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/index_page_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_locators/login_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/login_page_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_ojbects/index_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_ojbects/index_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_ojbects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_ojbects/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/common_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/common_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="91">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding>
                 <element signature="e#165#222#0" expanded="true" />
               </folding>
@@ -64,13 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_ojbects/login_page.py">
+        <entry file="file://$PROJECT_DIR$/data/login_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding>
-                <element signature="e#169#205#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -78,8 +55,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_ojbects/index_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="227">
+              <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+              <folding>
+                <element signature="e#169#183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_ojbects/login_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
               <folding>
                 <element signature="e#169#205#0" expanded="true" />
               </folding>
@@ -90,17 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_locators/index_page_locator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -108,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="324">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="e#169#182#0" expanded="true" />
               </folding>
@@ -118,13 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
+        <entry file="file://$PROJECT_DIR$/common/tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-              <folding>
-                <element signature="e#166#179#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -132,8 +109,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#169#175#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,21 +145,32 @@
         <option value="$PROJECT_DIR$/util/base.py" />
         <option value="$PROJECT_DIR$/common/dir_config.py" />
         <option value="$PROJECT_DIR$/page_locators/page_login_locator.py" />
-        <option value="$PROJECT_DIR$/page_locators/login_page_locator.py" />
         <option value="$PROJECT_DIR$/caps/read_yaml.py" />
-        <option value="$PROJECT_DIR$/common/adb_oper.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/test_data/common_data.py" />
         <option value="$PROJECT_DIR$/page_ojbects/page_login.py" />
         <option value="$PROJECT_DIR$/page_ojbects/page_index.py" />
         <option value="$PROJECT_DIR$/caps/desired_caps.yaml" />
-        <option value="$PROJECT_DIR$/common/tools.py" />
-        <option value="$PROJECT_DIR$/page_ojbects/login_page.py" />
-        <option value="$PROJECT_DIR$/page_locators/index_page_locator.py" />
-        <option value="$PROJECT_DIR$/test_cases/conftest.py" />
+        <option value="$PROJECT_DIR$/common/adb_oper.py" />
+        <option value="$PROJECT_DIR$/note.txt" />
+        <option value="$PROJECT_DIR$/page_locators/my_page_locator.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/my_page.py" />
+        <option value="$PROJECT_DIR$/test_data/task.html" />
+        <option value="$PROJECT_DIR$/common/logger.py" />
         <option value="$PROJECT_DIR$/common/basepage.py" />
-        <option value="$PROJECT_DIR$/page_ojbects/index_page.py" />
+        <option value="$PROJECT_DIR$/util/logout.py" />
+        <option value="$PROJECT_DIR$/data/common_data.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/logout_page.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_logout.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/login_page.py" />
+        <option value="$PROJECT_DIR$/page_locators/login_page_locator.py" />
+        <option value="$PROJECT_DIR$/common/tools.py" />
+        <option value="$PROJECT_DIR$/test_cases/conftest.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/data/index_data.py" />
+        <option value="$PROJECT_DIR$/page_locators/index_page_locator.py" />
         <option value="$PROJECT_DIR$/test_cases/test_login.py" />
+        <option value="$PROJECT_DIR$/data/login_data.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/index_page.py" />
       </list>
     </option>
   </component>
@@ -203,6 +194,16 @@
             <path>
               <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
@@ -239,11 +240,6 @@
             <path>
               <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="app_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -255,10 +251,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api_automation_lefu_shanghu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_framework" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\keen\PycharmProjects\app_framework\test_cases" />
+      <recent name="C:\Users\keen\PycharmProjects\app_framework\util" />
+      <recent name="C:\Users\keen\PycharmProjects\app_framework\test_data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\keen\PycharmProjects\app_framework\caps" />
     </key>
@@ -276,7 +277,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="index_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="app_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,32 +285,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_ojbects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="app_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/logger.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_ojbects/index_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,27 +319,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="page_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="app_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_ojbects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\keen\PycharmProjects\app_framework\page_ojbects\login_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="app_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,13 +340,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_cases.test_logout.TestLogout" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="app_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cases.test_logout.TestLogout&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.TestLogin.test_login_2_no_pwd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="app_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_2_no_pwd&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.index_page" />
         <item itemvalue="Python.tools" />
-        <item itemvalue="Python.page_login" />
-        <item itemvalue="Python.logger" />
-        <item itemvalue="Python.base" />
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_2_no_pwd" />
+        <item itemvalue="Python tests.pytest for test_cases.test_logout.TestLogout" />
       </list>
     </recent_temporary>
   </component>
@@ -479,12 +468,47 @@
       <option name="project" value="LOCAL" />
       <updated>1570119991819</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="version 2019100501">
+      <created>1570197057435</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570197057436</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_logout_TestLogout - 2019.10.05 at 16h 27m 21s.xml">
+      <configuration name="pytest for test_logout.TestLogout" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_2_no_pwd - 2019.10.05 at 22h 51m 39s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_2_no_pwd" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17371202" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006605" side_tool="true" weight="0.26203966" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17371202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -502,7 +526,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 20190829" />
@@ -513,7 +537,8 @@
     <MESSAGE value="version 2019100201" />
     <MESSAGE value="version 2019100202" />
     <MESSAGE value="version 2019100401" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2019100401" />
+    <MESSAGE value="version 2019100501" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2019100501" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/webdriver.py">
@@ -611,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/dir_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2019-10-04 0752.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -625,68 +643,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#165#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caps/get_yaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caps/py.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/get_yaml.py" />
+    <entry file="file://$PROJECT_DIR$/caps/py.yaml" />
     <entry file="file://$PROJECT_DIR$/caps/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/extensions/applications.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caps/read_yaml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/common_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_locators/login_page_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/adb_oper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="e#170#187#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,84 +672,267 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#1;n#table#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/adb_oper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#170#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/extensions/applications.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#165#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        <state relative-caret-position="409">
+          <caret line="104" column="24" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
           <folding>
             <element signature="e#169#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
+    <entry file="file://$PROJECT_DIR$/common/dir_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        <state relative-caret-position="263">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/common_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/screenshots/登录页_等待用户名元素可见_2019-10-05 16_30_06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/screenshots/退出登录弹窗_确定按钮_2019-10-05 16_39_18.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/screenshots/退出登录弹窗_确定按钮_2019-10-05 16_58_53.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ojbects/logout_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
           <folding>
-            <element signature="e#166#179#0" expanded="true" />
+            <element signature="e#169#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/reports/report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/page_locators/my_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="20" column="69" lean-forward="true" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_logout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/screenshots/登录页_等待 提示语 账号不存在或密码错误 元素可见_2019-10-05 21_50_54.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="91">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
             <element signature="e#165#222#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ojbects/login_page.py">
+    <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="278">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
-            <element signature="e#169#205#0" expanded="true" />
+            <element signature="e#166#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_ojbects/index_page.py">
+    <entry file="file://$PROJECT_DIR$/page_locators/login_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="171">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/reports/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#169#205#0" expanded="true" />
+            <element signature="e#7679#7685#0" expanded="true" />
+            <element signature="e#7691#7697#0" expanded="true" />
+            <element signature="e#7699#7705#0" expanded="true" />
+            <element signature="e#7710#7716#0" expanded="true" />
+            <element signature="e#7718#7724#0" expanded="true" />
+            <element signature="e#7726#7732#0" expanded="true" />
+            <element signature="e#7734#7740#0" expanded="true" />
+            <element signature="e#7745#7751#0" expanded="true" />
+            <element signature="e#7753#7759#0" expanded="true" />
+            <element signature="e#7765#7771#0" expanded="true" />
+            <element signature="e#7773#7779#0" expanded="true" />
+            <element signature="e#7785#7791#0" expanded="true" />
+            <element signature="e#7937#7943#0" expanded="true" />
+            <element signature="e#7956#7962#0" expanded="true" />
+            <element signature="e#7964#7970#0" expanded="true" />
+            <element signature="e#7975#7981#0" expanded="true" />
+            <element signature="e#7983#7989#0" expanded="true" />
+            <element signature="e#7993#7999#0" expanded="true" />
+            <element signature="e#8001#8007#0" expanded="true" />
+            <element signature="e#8013#8019#0" expanded="true" />
+            <element signature="e#8021#8027#0" expanded="true" />
+            <element signature="e#8035#8041#0" expanded="true" />
+            <element signature="e#8043#8049#0" expanded="true" />
+            <element signature="e#8054#8060#0" expanded="true" />
+            <element signature="e#11906#11912#0" expanded="true" />
+            <element signature="e#11914#11920#0" expanded="true" />
+            <element signature="e#12063#12069#0" expanded="true" />
+            <element signature="e#12071#12077#0" expanded="true" />
+            <element signature="e#12201#12207#0" expanded="true" />
+            <element signature="e#12209#12215#0" expanded="true" />
+            <element signature="e#12626#12632#0" expanded="true" />
+            <element signature="e#12672#12678#0" expanded="true" />
+            <element signature="e#12825#12831#0" expanded="true" />
+            <element signature="e#12871#12877#0" expanded="true" />
+            <element signature="e#13023#13029#0" expanded="true" />
+            <element signature="e#13069#13075#0" expanded="true" />
+            <element signature="e#13203#13209#0" expanded="true" />
+            <element signature="e#13249#13255#0" expanded="true" />
+            <element signature="e#16346#16352#0" expanded="true" />
+            <element signature="e#16357#16363#0" expanded="true" />
+            <element signature="e#16493#16499#0" expanded="true" />
+            <element signature="e#16504#16510#0" expanded="true" />
+            <element signature="e#16639#16645#0" expanded="true" />
+            <element signature="e#16650#16656#0" expanded="true" />
+            <element signature="e#16766#16772#0" expanded="true" />
+            <element signature="e#16777#16783#0" expanded="true" />
+            <element signature="e#18754#18760#0" expanded="true" />
+            <element signature="e#18765#18771#0" expanded="true" />
+            <element signature="e#18901#18907#0" expanded="true" />
+            <element signature="e#18912#18918#0" expanded="true" />
+            <element signature="e#19047#19053#0" expanded="true" />
+            <element signature="e#19058#19064#0" expanded="true" />
+            <element signature="e#19174#19180#0" expanded="true" />
+            <element signature="e#19185#19191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_locators/index_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/login_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ojbects/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="e#169#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#169#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ojbects/index_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+          <folding>
+            <element signature="e#169#183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="324">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#169#182#0" expanded="true" />
           </folding>

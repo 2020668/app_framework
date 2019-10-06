@@ -1,0 +1,33 @@
+ Sat, 05 Oct 2019 16:58:11  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:02.690870
+ Sat, 05 Oct 2019 16:58:11  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.829397
+ Sat, 05 Oct 2019 16:58:12  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+ Sat, 05 Oct 2019 16:58:12  INFO basepage.py input_text [ line:114 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+ Sat, 05 Oct 2019 16:58:13  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.680424
+ Sat, 05 Oct 2019 16:58:13  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+ Sat, 05 Oct 2019 16:58:14  INFO basepage.py input_text [ line:114 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+ Sat, 05 Oct 2019 16:58:15  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.892438
+ Sat, 05 Oct 2019 16:58:15  INFO basepage.py get_element [ line:77 ] 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sat, 05 Oct 2019 16:58:15  INFO basepage.py click_element [ line:101 ] 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sat, 05 Oct 2019 16:58:17  INFO basepage.py wait_ele_exists [ line:55 ] 等待 首页_获取用户登录状态  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 存在成功。耗时：0:00:02.036672
+ Sat, 05 Oct 2019 16:58:17  INFO basepage.py get_element [ line:77 ] 查找  首页_获取用户登录状态 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+ Sat, 05 Oct 2019 16:58:17  INFO basepage.py get_text [ line:151 ] 获取 首页_获取用户登录状态 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 的文本值为:账单
+ Sat, 05 Oct 2019 16:58:17  INFO basepage.py wait_ele_visible [ line:40 ] 等待 首页_等待 我的 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 可见成功。耗时：0:00:00.187498
+ Sat, 05 Oct 2019 16:58:18  INFO basepage.py get_element [ line:77 ] 查找  首页_等待 我的 元素可见 元素 ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 成功！
+ Sat, 05 Oct 2019 16:58:19  INFO basepage.py wait_ele_visible [ line:40 ] 等待 我的页_等待 设置 元素可见  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 可见成功。耗时：0:00:00.941730
+ Sat, 05 Oct 2019 16:58:19  INFO basepage.py wait_ele_visible [ line:40 ] 等待 我的页_设置按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 可见成功。耗时：0:00:00.289220
+ Sat, 05 Oct 2019 16:58:19  INFO basepage.py get_element [ line:77 ] 查找  我的页_设置按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 成功！
+ Sat, 05 Oct 2019 16:58:20  INFO basepage.py click_element [ line:101 ] 点击  我的页_设置按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 成功！
+ Sat, 05 Oct 2019 16:58:20  INFO basepage.py wait_ele_visible [ line:40 ] 等待 设置页_等待 退出登录 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见成功。耗时：0:00:00.179514
+ Sat, 05 Oct 2019 16:58:20  INFO basepage.py wait_ele_visible [ line:40 ] 等待 设置页_退出登录按钮按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见成功。耗时：0:00:00.120676
+ Sat, 05 Oct 2019 16:58:20  INFO basepage.py get_element [ line:77 ] 查找  设置页_退出登录按钮按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 成功！
+ Sat, 05 Oct 2019 16:58:21  INFO basepage.py click_element [ line:101 ] 点击  设置页_退出登录按钮按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 成功！
+ Sat, 05 Oct 2019 16:58:23  INFO basepage.py wait_ele_visible [ line:40 ] 等待 退出登录弹窗_等待 确定 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 可见成功。耗时：0:00:02.025617
+ Sat, 05 Oct 2019 16:58:53  ERROR basepage.py wait_ele_visible [ line:34 ] 等待元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见 失败！
+Traceback (most recent call last):
+  File "C:\Users\keen\PycharmProjects\app_framework\common\basepage.py", line 31, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
+  File "C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Sat, 05 Oct 2019 16:58:54  INFO basepage.py save_img [ line:168 ] 截图成功，截图存放在：C:\Users\keen\PycharmProjects\app_framework\output/screenshots\退出登录弹窗_确定按钮_2019-10-05 16_58_53.png

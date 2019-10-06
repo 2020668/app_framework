@@ -27,4 +27,5 @@ handler_2 = RotatingFileHandler(dir_config.logs_dir + "/Web_Autotest_{0}.log".fo
 # 设置rootlogger 的输出内容形式，输出渠道
 logging.basicConfig(format=fmt, datefmt=datefmt, level=logging.INFO, handlers=[handler_1, handler_2])
 
-logging.info("hehehe")
+if __name__ == '__main__':
+    logging.info("hehehe")

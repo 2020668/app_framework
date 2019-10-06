@@ -1,0 +1,14 @@
+ Sat, 05 Oct 2019 12:04:58  INFO logger.py <module> [ line:30 ] hehehe
+ Sat, 05 Oct 2019 12:05:22  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.983173
+ Sat, 05 Oct 2019 12:05:23  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.196463
+ Sat, 05 Oct 2019 12:05:23  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+ Sat, 05 Oct 2019 12:05:23  INFO basepage.py input_text [ line:114 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+ Sat, 05 Oct 2019 12:05:24  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:01.237266
+ Sat, 05 Oct 2019 12:05:24  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+ Sat, 05 Oct 2019 12:05:25  INFO basepage.py input_text [ line:114 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+ Sat, 05 Oct 2019 12:05:25  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.576460
+ Sat, 05 Oct 2019 12:05:26  INFO basepage.py get_element [ line:77 ] 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sat, 05 Oct 2019 12:05:27  INFO basepage.py click_element [ line:101 ] 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sat, 05 Oct 2019 12:05:28  INFO basepage.py wait_ele_exists [ line:55 ] 等待 首页_获取用户登录状态  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 存在成功。耗时：0:00:00.276222
+ Sat, 05 Oct 2019 12:05:28  INFO basepage.py get_element [ line:77 ] 查找  首页_获取用户登录状态 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+ Sat, 05 Oct 2019 12:05:28  INFO basepage.py get_text [ line:151 ] 获取 首页_获取用户登录状态 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 的文本值为:账单

@@ -1,0 +1,22 @@
+ Sun, 06 Oct 2019 15:30:45  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:02.636179
+ Sun, 06 Oct 2019 15:30:46  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.828355
+ Sun, 06 Oct 2019 15:30:46  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+ Sun, 06 Oct 2019 15:30:47  INFO basepage.py input_text [ line:114 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+ Sun, 06 Oct 2019 15:30:47  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.632838
+ Sun, 06 Oct 2019 15:30:47  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+ Sun, 06 Oct 2019 15:30:48  INFO basepage.py input_text [ line:114 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+ Sun, 06 Oct 2019 15:30:49  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:01.163572
+ Sun, 06 Oct 2019 15:30:49  INFO basepage.py get_element [ line:77 ] 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sun, 06 Oct 2019 15:30:49  INFO basepage.py click_element [ line:101 ] 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sun, 06 Oct 2019 15:30:51  INFO basepage.py wait_ele_visible [ line:40 ] 等待 首页_扫一扫按钮  元素  ('-android uiautomator', 'new UiSelector().text("扫一扫")') 可见成功。耗时：0:00:02.269440
+ Sun, 06 Oct 2019 15:30:51  INFO basepage.py wait_ele_visible [ line:40 ] 等待 首页_扫一扫按钮  元素  ('-android uiautomator', 'new UiSelector().text("扫一扫")') 可见成功。耗时：0:00:00.245350
+ Sun, 06 Oct 2019 15:30:52  INFO basepage.py get_element [ line:77 ] 查找  首页_扫一扫按钮 元素 ('-android uiautomator', 'new UiSelector().text("扫一扫")') 成功！
+ Sun, 06 Oct 2019 15:30:53  INFO basepage.py click_element [ line:101 ] 点击  首页_扫一扫按钮 元素 ('-android uiautomator', 'new UiSelector().text("扫一扫")') 成功！
+ Sun, 06 Oct 2019 15:30:53  INFO basepage.py wait_ele_visible [ line:40 ] 等待 金额输入框  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_show') 可见成功。耗时：0:00:00.196473
+ Sun, 06 Oct 2019 15:30:53  INFO basepage.py wait_ele_visible [ line:40 ] 等待 输入金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_show') 可见成功。耗时：0:00:00.102724
+ Sun, 06 Oct 2019 15:30:53  INFO basepage.py get_element [ line:77 ] 查找  输入金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_show') 成功！
+ Sun, 06 Oct 2019 15:30:54  INFO basepage.py input_text [ line:114 ] 在 输入金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_show') 上输入文本值：0.01 成功！
+ Sun, 06 Oct 2019 15:30:55  INFO basepage.py wait_ele_visible [ line:40 ] 等待 确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 可见成功。耗时：0:00:00.628826
+ Sun, 06 Oct 2019 15:30:55  INFO basepage.py wait_ele_visible [ line:40 ] 等待 确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 可见成功。耗时：0:00:00.143617
+ Sun, 06 Oct 2019 15:30:55  INFO basepage.py get_element [ line:77 ] 查找  确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 成功！
+ Sun, 06 Oct 2019 15:30:55  INFO basepage.py click_element [ line:101 ] 点击  确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 成功！

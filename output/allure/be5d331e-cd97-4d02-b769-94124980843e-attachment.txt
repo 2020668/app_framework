@@ -1,0 +1,18 @@
+INFO     root:basepage.py:40 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.398030
+INFO     root:basepage.py:40 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.177527
+INFO     root:basepage.py:77 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+INFO     root:basepage.py:114 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721099 成功！
+INFO     root:basepage.py:40 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:01.175937
+INFO     root:basepage.py:77 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+INFO     root:basepage.py:114 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+INFO     root:basepage.py:40 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.671846
+INFO     root:basepage.py:77 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:101 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:40 等待 登录页_等待 提示语 账号不存在或密码错误 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_tishi_content') 可见成功。耗时：0:00:02.501033
+INFO     root:basepage.py:55 等待 登录页_提示语 账号不存在或密码错误  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_tishi_content') 存在成功。耗时：0:00:00.088763
+INFO     root:basepage.py:77 查找  登录页_提示语 账号不存在或密码错误 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_tishi_content') 成功！
+INFO     root:basepage.py:151 获取 登录页_提示语 账号不存在或密码错误 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_tishi_content') 的文本值为:账号不存在或者密码有误
+INFO     root:basepage.py:40 等待 登录页_等待 提示语 我知道了 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/but_tishi') 可见成功。耗时：0:00:00.096780
+INFO     root:basepage.py:40 等待 登录页_提示语 我知道了  元素  ('id', 'com.cashier.jiutongshanghu:id/but_tishi') 可见成功。耗时：0:00:00.092714
+INFO     root:basepage.py:77 查找  登录页_提示语 我知道了 元素 ('id', 'com.cashier.jiutongshanghu:id/but_tishi') 成功！
+INFO     root:basepage.py:101 点击  登录页_提示语 我知道了 元素 ('id', 'com.cashier.jiutongshanghu:id/but_tishi') 成功！

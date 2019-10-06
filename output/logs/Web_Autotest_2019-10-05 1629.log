@@ -1,0 +1,9 @@
+ Sat, 05 Oct 2019 16:30:06  ERROR basepage.py wait_ele_visible [ line:34 ] 等待元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见 失败！
+Traceback (most recent call last):
+  File "C:\Users\keen\PycharmProjects\app_framework\common\basepage.py", line 31, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
+  File "C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Sat, 05 Oct 2019 16:30:07  INFO basepage.py save_img [ line:168 ] 截图成功，截图存放在：C:\Users\keen\PycharmProjects\app_framework\output/screenshots\登录页_等待用户名元素可见_2019-10-05 16_30_06.png

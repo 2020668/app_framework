@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务清单</title>
+    <script>
+            window.onload = window.onload = function () { getTdValue(); }
+            //根据传过来的天数（day）和日期（datatime），返回在传入日期上加上天数后的日期。如：day=2、datatime=2018/3/7 11:28:09，那么返回的日期就是2018/3/9 11:28:09
+            function showTime(day, datatime) {
+                var dayTime = day * 24 * 60 * 60 * 1000; //参数天数的时间戳
+                var nowTime = new Date(datatime).getTime(); //当天的时间戳
+                var t = new Date(nowTime + dayTime).toString("yyyy/MM/dd HH:mm:ss");  //把两个时间戳转换成普通时间
+                return t;
+            }
+            function leftTimer(enddate) {
+                var leftTime = (new Date(enddate)) - new Date(); //计算剩余的毫秒数
+                var days = parseInt(leftTime / 1000 / 60 / 60 / 24, 10); //计算剩余的天数
+                var hours = parseInt(leftTime / 1000 / 60 / 60 % 24, 10); //计算剩余的小时
+                var minutes = parseInt(leftTime / 1000 / 60 % 60, 10);//计算剩余的分钟
+                var seconds = parseInt(leftTime / 1000 % 60, 10);//计算剩余的秒数
+                days = checkTime(days);
+                hours = checkTime(hours);
+                minutes = checkTime(minutes);
+                seconds = checkTime(seconds);
+                if (days > 0 && hours >= 0 && minutes >= 0 && seconds >= 0)
+                    return days + "天" + hours + "小时" + minutes + "分" + seconds + "秒";
+                else if (days == 0 && hours >= 0 && minutes >= 0 && seconds >= 0)
+                    return hours + "小时" + minutes + "分" + seconds + "秒";
+                else if (days == 0 && hours == 0 && minutes >= 0 && seconds >= 0)
+                    return minutes + "分" + seconds + "秒";
+                else if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
+                    return "";
+                }
+            }
+            function checkTime(i) { //将0-9的数字前面加上0，例1变为01
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                return i;
+            }
+            function getTdValue() {
+                var tableId = document.getElementById("tab");
+                var str = "";
+                //循环获取table
+                for (var i = 1; i < tableId.rows.length; i++) {
+                    //tableId.rows[i].cells[4].innerHTML 获取table中第5个td的值
+                    var date1 = new Date(), data2 = new Date(showTime(0, tableId.rows[i].cells[4].innerHTML));
+                    if (data2 < date1) continue;//设置的时间小于现在时间退出
+                    tableId.rows[i].cells[6].innerHTML = leftTimer(showTime(0, tableId.rows[i].cells[4].innerHTML))
+                    tableId.rows[i].cells[6].style.color = "red";//改变td颜色
+                    setInterval("getTdValue()", 1000);//每秒刷新一次
+                }
+
+            }
+        </script>
+</head >
+<h2 align="center">任务清单</h2>
+<table style="width: 100%; height: 100%;" id="tab" border="1" cellpadding="1" cellspacing="1">
+        <tr style="background-color: rgba(23, 158, 226, 0.476)" align="center">
+            <th>序号</th>
+            <th>项目名称</th>
+            <th>模块</th>
+            <th>进度</th>
+            <th>上线时间</th>
+            <th>生产环境确认</th>
+            <th>上线倒计时</th>
+        </tr>
+        <tr align="center">
+            <td>20191001</td>
+            <td>乐付微信公众号</td>
+            <td>收款、到账推送</td>
+            <td>50%</td>
+            <td>2019/10/28 09:30:00</td>
+            <td style="background-color: red">否</td>
+            <td>已上线</td>
+        </tr>
+    </table>
+<body>
+</body>
+</html>

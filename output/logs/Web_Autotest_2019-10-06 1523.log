@@ -1,0 +1,31 @@
+ Sun, 06 Oct 2019 15:23:17  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:02.297264
+ Sun, 06 Oct 2019 15:23:17  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.156579
+ Sun, 06 Oct 2019 15:23:17  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+ Sun, 06 Oct 2019 15:23:17  INFO basepage.py input_text [ line:114 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：15533366622 成功！
+ Sun, 06 Oct 2019 15:23:18  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.931668
+ Sun, 06 Oct 2019 15:23:19  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+ Sun, 06 Oct 2019 15:23:19  INFO basepage.py input_text [ line:114 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+ Sun, 06 Oct 2019 15:23:20  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.659809
+ Sun, 06 Oct 2019 15:23:20  INFO basepage.py get_element [ line:77 ] 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sun, 06 Oct 2019 15:23:20  INFO basepage.py click_element [ line:101 ] 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sun, 06 Oct 2019 15:23:22  INFO basepage.py wait_ele_visible [ line:40 ] 等待 首页_扫一扫按钮  元素  ('-android uiautomator', 'new UiSelector().text("扫一扫")') 可见成功。耗时：0:00:02.264943
+ Sun, 06 Oct 2019 15:23:23  INFO basepage.py wait_ele_visible [ line:40 ] 等待 首页_扫一扫按钮  元素  ('-android uiautomator', 'new UiSelector().text("扫一扫")') 可见成功。耗时：0:00:00.218475
+ Sun, 06 Oct 2019 15:23:23  INFO basepage.py get_element [ line:77 ] 查找  首页_扫一扫按钮 元素 ('-android uiautomator', 'new UiSelector().text("扫一扫")') 成功！
+ Sun, 06 Oct 2019 15:23:25  INFO basepage.py click_element [ line:101 ] 点击  首页_扫一扫按钮 元素 ('-android uiautomator', 'new UiSelector().text("扫一扫")') 成功！
+ Sun, 06 Oct 2019 15:23:25  INFO basepage.py wait_ele_visible [ line:40 ] 等待 金额输入框  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_show') 可见成功。耗时：0:00:00.191491
+ Sun, 06 Oct 2019 15:23:25  INFO basepage.py wait_ele_visible [ line:40 ] 等待 输入金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_show') 可见成功。耗时：0:00:00.174525
+ Sun, 06 Oct 2019 15:23:25  INFO basepage.py get_element [ line:77 ] 查找  输入金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_show') 成功！
+ Sun, 06 Oct 2019 15:23:26  INFO basepage.py input_text [ line:114 ] 在 输入金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_show') 上输入文本值：0.01 成功！
+ Sun, 06 Oct 2019 15:23:26  INFO basepage.py wait_ele_visible [ line:40 ] 等待 确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 可见成功。耗时：0:00:00.643279
+ Sun, 06 Oct 2019 15:23:27  INFO basepage.py wait_ele_visible [ line:40 ] 等待 确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 可见成功。耗时：0:00:00.158160
+ Sun, 06 Oct 2019 15:23:27  INFO basepage.py get_element [ line:77 ] 查找  确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 成功！
+ Sun, 06 Oct 2019 15:23:27  INFO basepage.py click_element [ line:101 ] 点击  确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 成功！
+ Sun, 06 Oct 2019 15:24:02  ERROR basepage.py wait_ele_visible [ line:34 ] 等待元素 ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 可见 失败！
+Traceback (most recent call last):
+  File "C:\Users\keen\PycharmProjects\app_framework\common\basepage.py", line 31, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
+  File "C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Sun, 06 Oct 2019 15:24:03  INFO basepage.py save_img [ line:168 ] 截图成功，截图存放在：C:\Users\keen\PycharmProjects\app_framework\output/screenshots\首页_等待 我的 元素可见_2019-10-06 15_24_02.png

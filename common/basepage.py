@@ -89,7 +89,7 @@ class BasePage(object):
         elif isinstance(loc, WebElement):  # WebElement对象
             return loc
         else:
-            logging.error("参数loc: {} 即不是元组，也不是WebElement对象，无法根据此参数找到元素。")
+            logging.error("参数loc: {} 即不是元组，也不是WebElement对象，无法根据此参数找到元素。".format(loc))
             raise
 
     # 点击元素

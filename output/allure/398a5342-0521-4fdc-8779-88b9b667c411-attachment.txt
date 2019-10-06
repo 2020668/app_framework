@@ -1,0 +1,22 @@
+INFO     root:basepage.py:40 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.647622
+INFO     root:basepage.py:40 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.183500
+INFO     root:basepage.py:77 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+INFO     root:basepage.py:114 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+INFO     root:basepage.py:40 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.705110
+INFO     root:basepage.py:77 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+INFO     root:basepage.py:114 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+INFO     root:basepage.py:40 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:01.128633
+INFO     root:basepage.py:77 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:101 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:40 等待 首页_扫一扫按钮  元素  ('-android uiautomator', 'new UiSelector().text("扫一扫")') 可见成功。耗时：0:00:02.612499
+INFO     root:basepage.py:40 等待 首页_扫一扫按钮  元素  ('-android uiautomator', 'new UiSelector().text("扫一扫")') 可见成功。耗时：0:00:00.253323
+INFO     root:basepage.py:77 查找  首页_扫一扫按钮 元素 ('-android uiautomator', 'new UiSelector().text("扫一扫")') 成功！
+INFO     root:basepage.py:101 点击  首页_扫一扫按钮 元素 ('-android uiautomator', 'new UiSelector().text("扫一扫")') 成功！
+INFO     root:basepage.py:40 等待 金额输入框  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_show') 可见成功。耗时：0:00:00.266279
+INFO     root:basepage.py:40 等待 输入金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_show') 可见成功。耗时：0:00:00.352570
+INFO     root:basepage.py:77 查找  输入金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_show') 成功！
+INFO     root:basepage.py:114 在 输入金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_show') 上输入文本值：0.01 成功！
+INFO     root:basepage.py:40 等待 确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 可见成功。耗时：0:00:00.600482
+INFO     root:basepage.py:40 等待 确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 可见成功。耗时：0:00:00.156545
+INFO     root:basepage.py:77 查找  确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 成功！
+INFO     root:basepage.py:101 点击  确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ib_finish') 成功！

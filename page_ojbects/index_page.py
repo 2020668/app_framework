@@ -12,10 +12,14 @@ E-mail:keen2020@outlook.com
 
 """
 
+
+import logging
+import time
+
+
 from common.basepage import BasePage
 from page_locators.index_page_locator import IndexPageLocator as Loc
 from common import logger
-import logging
 
 
 class IndexPage(BasePage):
@@ -43,3 +47,15 @@ class IndexPage(BasePage):
             return True
         else:
             return False
+
+    def scan_pay(self, amount):
+        self.wait_ele_visible(Loc.scan_loc, img_desc="首页_扫一扫按钮")
+        self.click_element(Loc.scan_loc, img_desc="首页_扫一扫按钮")
+
+        self.wait_ele_visible(Loc.input_amount_loc, img_desc="金额输入框")
+        self.input_text(Loc.input_amount_loc, value=amount, img_desc="输入金额")
+
+        self.wait_ele_visible(Loc.sure_loc, img_desc="确定按钮")
+        self.click_element(Loc.sure_loc, img_desc="确定按钮")
+
+        time.sleep(8)

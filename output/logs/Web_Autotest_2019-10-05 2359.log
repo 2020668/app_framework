@@ -1,0 +1,55 @@
+ Sat, 05 Oct 2019 23:59:22  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:02.340825
+ Sat, 05 Oct 2019 23:59:22  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.183477
+ Sat, 05 Oct 2019 23:59:22  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+ Sat, 05 Oct 2019 23:59:23  INFO basepage.py input_text [ line:114 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+ Sat, 05 Oct 2019 23:59:24  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.692571
+ Sat, 05 Oct 2019 23:59:24  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+ Sat, 05 Oct 2019 23:59:25  INFO basepage.py input_text [ line:114 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+ Sat, 05 Oct 2019 23:59:25  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.580422
+ Sat, 05 Oct 2019 23:59:26  INFO basepage.py get_element [ line:77 ] 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sat, 05 Oct 2019 23:59:26  INFO basepage.py click_element [ line:101 ] 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sat, 05 Oct 2019 23:59:28  INFO basepage.py wait_ele_exists [ line:55 ] 等待 首页_获取用户登录状态  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 存在成功。耗时：0:00:02.153222
+ Sat, 05 Oct 2019 23:59:28  INFO basepage.py get_element [ line:77 ] 查找  首页_获取用户登录状态 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+ Sat, 05 Oct 2019 23:59:28  INFO basepage.py get_text [ line:151 ] 获取 首页_获取用户登录状态 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 的文本值为:账单
+ Sat, 05 Oct 2019 23:59:28  INFO basepage.py wait_ele_visible [ line:40 ] 等待 首页_等待 我的 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 可见成功。耗时：0:00:00.176527
+ Sat, 05 Oct 2019 23:59:28  INFO basepage.py get_element [ line:77 ] 查找  首页_等待 我的 元素可见 元素 ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 成功！
+ Sat, 05 Oct 2019 23:59:30  INFO basepage.py wait_ele_visible [ line:40 ] 等待 我的页_等待 设置 元素可见  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 可见成功。耗时：0:00:00.982217
+ Sat, 05 Oct 2019 23:59:30  INFO basepage.py wait_ele_visible [ line:40 ] 等待 我的页_设置按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 可见成功。耗时：0:00:00.188498
+ Sat, 05 Oct 2019 23:59:30  INFO basepage.py get_element [ line:77 ] 查找  我的页_设置按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 成功！
+ Sat, 05 Oct 2019 23:59:31  INFO basepage.py click_element [ line:101 ] 点击  我的页_设置按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 成功！
+ Sat, 05 Oct 2019 23:59:31  INFO basepage.py wait_ele_visible [ line:40 ] 等待 设置页_等待 退出登录 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见成功。耗时：0:00:00.168517
+ Sat, 05 Oct 2019 23:59:31  INFO basepage.py wait_ele_visible [ line:40 ] 等待 设置页_退出登录按钮按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见成功。耗时：0:00:00.164157
+ Sat, 05 Oct 2019 23:59:32  INFO basepage.py get_element [ line:77 ] 查找  设置页_退出登录按钮按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 成功！
+ Sat, 05 Oct 2019 23:59:32  INFO basepage.py click_element [ line:101 ] 点击  设置页_退出登录按钮按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 成功！
+ Sat, 05 Oct 2019 23:59:34  INFO basepage.py wait_ele_visible [ line:40 ] 等待 退出登录弹窗_等待 确定 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 可见成功。耗时：0:00:01.985503
+ Sat, 05 Oct 2019 23:59:34  INFO basepage.py wait_ele_visible [ line:40 ] 等待 退出登录弹窗_确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 可见成功。耗时：0:00:00.116727
+ Sat, 05 Oct 2019 23:59:34  INFO basepage.py get_element [ line:77 ] 查找  退出登录弹窗_确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 成功！
+ Sat, 05 Oct 2019 23:59:34  INFO basepage.py click_element [ line:101 ] 点击  退出登录弹窗_确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 成功！
+ Sat, 05 Oct 2019 23:59:51  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.547597
+ Sat, 05 Oct 2019 23:59:51  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.164528
+ Sat, 05 Oct 2019 23:59:51  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+ Sat, 05 Oct 2019 23:59:52  INFO basepage.py input_text [ line:114 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值： 成功！
+ Sat, 05 Oct 2019 23:59:53  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:01.207543
+ Sat, 05 Oct 2019 23:59:53  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+ Sat, 05 Oct 2019 23:59:54  INFO basepage.py input_text [ line:114 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+ Sat, 05 Oct 2019 23:59:55  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.665594
+ Sat, 05 Oct 2019 23:59:55  INFO basepage.py get_element [ line:77 ] 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sat, 05 Oct 2019 23:59:55  INFO basepage.py click_element [ line:101 ] 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sat, 05 Oct 2019 23:59:55  INFO basepage.py wait_ele_exists [ line:55 ] 等待 登录页_等待 提示语 请输入账号 元素存在  元素  ('xpath', '//*[contains(@text, "请输入账号")]') 存在成功。耗时：0:00:00.567381
+ Sat, 05 Oct 2019 23:59:56  INFO basepage.py wait_ele_exists [ line:55 ] 等待 登录页_提示语 请输入账号  元素  ('xpath', '//*[contains(@text, "请输入账号")]') 存在成功。耗时：0:00:00.355690
+ Sat, 05 Oct 2019 23:59:56  INFO basepage.py get_element [ line:77 ] 查找  登录页_提示语 请输入账号 元素 ('xpath', '//*[contains(@text, "请输入账号")]') 成功！
+ Sat, 05 Oct 2019 23:59:56  INFO basepage.py get_text [ line:151 ] 获取 登录页_提示语 请输入账号 元素 ('xpath', '//*[contains(@text, "请输入账号")]') 的文本值为:请输入账号
+ Sun, 06 Oct 2019 00:00:14  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.731419
+ Sun, 06 Oct 2019 00:00:15  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.236084
+ Sun, 06 Oct 2019 00:00:15  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功！
+ Sun, 06 Oct 2019 00:00:15  INFO basepage.py input_text [ line:114 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：13072721092 成功！
+ Sun, 06 Oct 2019 00:00:16  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:01.050066
+ Sun, 06 Oct 2019 00:00:17  INFO basepage.py get_element [ line:77 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功！
+ Sun, 06 Oct 2019 00:00:17  INFO basepage.py input_text [ line:114 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值： 成功！
+ Sun, 06 Oct 2019 00:00:18  INFO basepage.py wait_ele_visible [ line:40 ] 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.701246
+ Sun, 06 Oct 2019 00:00:18  INFO basepage.py get_element [ line:77 ] 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sun, 06 Oct 2019 00:00:18  INFO basepage.py click_element [ line:101 ] 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Sun, 06 Oct 2019 00:00:19  INFO basepage.py wait_ele_exists [ line:55 ] 等待 登录页_等待 提示语 请输入密码 元素存在  元素  ('xpath', '//*[contains(@text, "请输入密码")]') 存在成功。耗时：0:00:00.842832
+ Sun, 06 Oct 2019 00:00:19  INFO basepage.py wait_ele_exists [ line:55 ] 等待 登录页_提示语 请输入密码  元素  ('xpath', '//*[contains(@text, "请输入密码")]') 存在成功。耗时：0:00:00.408487
+ Sun, 06 Oct 2019 00:00:20  INFO basepage.py get_element [ line:77 ] 查找  登录页_提示语 请输入密码 元素 ('xpath', '//*[contains(@text, "请输入密码")]') 成功！
+ Sun, 06 Oct 2019 00:00:20  INFO basepage.py get_text [ line:151 ] 获取 登录页_提示语 请输入密码 元素 ('xpath', '//*[contains(@text, "请输入密码")]') 的文本值为:请输入密码

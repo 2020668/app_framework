@@ -13,7 +13,7 @@ import os
 # 框架项目顶层目录
 base_dir = os.path.split(os.path.split(os.path.abspath(__file__))[0])[0]
 
-test_data_dir = os.path.join(base_dir, "test_data")
+test_data_dir = os.path.join(base_dir, "data")
 
 test_cases_dir = os.path.join(base_dir, "test_cases")
 
